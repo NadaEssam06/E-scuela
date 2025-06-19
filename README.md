@@ -49,7 +49,7 @@ project/
    ```bash
    git clone https://github.com/NadaEssam06/E-scuela.git
    cd your-repo
-````
+   ```
 
 2. Install dependencies:
 
