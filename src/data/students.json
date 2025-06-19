@@ -1,14 +1,9 @@
 {
   "students": [
     {
-      "id": "1",
-      "name": "Nada",
-      "city": "Aswan"
-    },
-    {
       "id": "2",
       "name": "Salma",
-      "city": "Alexandria"
+      "city": "Alex"
     },
     {
       "id": "3",
@@ -26,44 +21,14 @@
       "city": "Bor-saied"
     },
     {
-      "id": 30,
-      "name": "Sam",
-      "city": "Baghdad"
-    },
-    {
-      "id": 31,
-      "name": "samy",
-      "city": "Seoul"
-    },
-    {
-      "id": 71,
-      "name": "Marawa",
-      "city": "Asuit"
-    },
-    {
-      "id": 72,
-      "name": "Noha",
-      "city": "New york"
-    },
-    {
-      "id": 73,
-      "name": "Abeer",
-      "city": "aswan"
-    },
-    {
-      "id": 74,
-      "name": "Salwa",
-      "city": "Granda"
-    },
-    {
-      "id": 75,
-      "name": "luna",
-      "city": "Miecico"
-    },
-    {
-      "id": 21,
-      "name": "Ola",
+      "id": "30",
+      "name": "Nada",
       "city": "Alex"
+    },
+    {
+      "id": "22",
+      "name": "Nora",
+      "city": "Asuit"
     }
   ]
 }

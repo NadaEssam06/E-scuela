@@ -3,9 +3,10 @@
   <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <div class="flex flex-col min-h-screen">
     <navbar></navbar>
-    <Home></Home>
+    <!-- <Home></Home>
 
-    <Contact></Contact>
+    <Contact></Contact> -->
+    <router-view></router-view>
 
     <Footer></Footer>
   </div>
@@ -17,6 +18,7 @@ import navbar from "./components/navbar.vue";
 import Footer from "./components/Footer.vue";
 import Contact from "./components/Contact.vue";
 import Home from "./components/Home.vue";
+import router from "./routes/index.vue";
 
 export default {
   name: "App",
@@ -26,6 +28,7 @@ export default {
     Home,
     Footer,
     Contact,
+    router,
   },
 };
 </script>
