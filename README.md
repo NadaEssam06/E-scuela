@@ -1,7 +1,5 @@
 
 ### **README.md**
-
-```markdown
 # Vue Student Management Dashboard
 
 This is a responsive Vue 3 dashboard application designed to manage student data and provide a user-friendly interface for interaction. It includes structured routing, modular components, a contact form, and clean UI layouts using Tailwind CSS.
