@@ -1,12 +1,3 @@
-Here's a **clean GitHub description** and a **professional `README.md`** for your Vue-based student management dashboard project, based on your structure and code samples:
-
----
-
-### **GitHub Description**
-
-A responsive Vue 3 dashboard for managing student data with built-in routing, dynamic table rendering, form handling, and modular components. Includes a contact form, sidebar navigation, and data-driven views—ideal for admin panels or educational platforms.
-
----
 
 ### **README.md**
 
