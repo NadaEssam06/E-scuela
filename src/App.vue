@@ -1,11 +1,7 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <div class="flex flex-col min-h-screen">
     <navbar></navbar>
-    <!-- <Home></Home>
 
-    <Contact></Contact> -->
     <router-view></router-view>
 
     <Footer></Footer>
@@ -13,7 +9,6 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 import navbar from "./components/navbar.vue";
 import Footer from "./components/Footer.vue";
 import Contact from "./components/Contact.vue";
@@ -23,7 +18,6 @@ import router from "./routes/index.vue";
 export default {
   name: "App",
   components: {
-    HelloWorld,
     navbar,
     Home,
     Footer,
@@ -32,14 +26,3 @@ export default {
   },
 };
 </script>
-
-<!-- <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style> -->
