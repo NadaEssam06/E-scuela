@@ -1,6 +1,6 @@
 <template>
   <!-- Open the modal using ID.showModal() method -->
-  <button class="btn" onclick="my_modal_1.showModal()">open modal</button>
+  <button class="btn" onclick="my_modal_1.showModal()">Add</button>
   <dialog
     id="my_modal_1"
     class="modal bg-gray-800 p-6 rounded-lg shadow-md space-y-4 max-w-md"
@@ -13,7 +13,6 @@
           >ID</label
         >
         <input
-          type="number"
           id="title"
           v-model="std.id"
           class="w-full p-2 bg-gray-900 text-gray-100 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"

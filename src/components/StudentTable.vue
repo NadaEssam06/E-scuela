@@ -13,6 +13,7 @@
           v-for="student in students"
           :key="student.id"
           class="hover:bg-gray-700"
+          @click="$router.push(`/student/${student.id}`)"
         >
           <td class="p-4 border-b border-gray-600">{{ student.id }}</td>
           <td class="p-4 border-b border-gray-600">{{ student.name }}</td>
@@ -52,12 +53,12 @@ export default {
         method: "POST",
         body: JSON.stringify(newStudent),
         headers: {
-          "Content-type": "application/json; charset=UTF-8",
+          "Content-type": "application/json",
         },
       })
         .then((data) => data.status)
         .catch((err) => console.log(err));
-      console.log(newStudent);
+      this.$router.push("/student/" + newStudent.id);
     },
   },
 };

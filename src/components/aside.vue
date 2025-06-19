@@ -2,9 +2,9 @@
   <aside>
     <ul class="flex flex-col justify-between items-center h-full p-4">
       <li>
-        <a href="/#home" class="text-gray-400 hover:text-gray-200 transition">
-          Home
-        </a>
+        <router-link to="/" class="text-gray-400 hover:text-gray-200 transition"
+          >Home</router-link
+        >
       </li>
       <li>
         <a href="/#about" class="text-gray-400 hover:text-gray-200 transition">
@@ -12,12 +12,11 @@
         </a>
       </li>
       <li>
-        <a
-          href="/#contact"
+        <router-link
+          to="/contact"
           class="text-gray-400 hover:text-gray-200 transition"
+          >Contact</router-link
         >
-          Contact
-        </a>
       </li>
     </ul>
   </aside>
